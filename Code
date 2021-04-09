@@ -1,0 +1,21 @@
+n = int(input('Voters:'))
+i = 0
+a = 0
+b = 0
+c = 0
+
+
+while i < n:
+
+    d = input("Vote in (A,B or C):")
+    if d == 'A' :
+        a+=1
+    elif d == 'B':
+        b += 1
+    else:
+        c+= 1
+    i += 1
+
+print(a,'For A')
+print(b,'For B ')
+print(c,'For C')
